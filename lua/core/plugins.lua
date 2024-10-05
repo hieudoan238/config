@@ -61,7 +61,7 @@ use {
 'glepnir/dashboard-nvim',
 requires = { 'nvim-tree/nvim-web-devicons' }
 }    
-
+use 'm4xshen/autoclose.nvim'
 if packer_bootstrap then
     require('packer').sync()
   end
